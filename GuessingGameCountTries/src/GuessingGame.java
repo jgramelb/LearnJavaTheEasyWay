@@ -28,7 +28,6 @@ public class GuessingGame extends JFrame {
 				message = guess + " is too high. Try again.";
 			}
 			else {
-				numberOfTries = numberOfTries + 1;
 				message = guess + " is correct. You win! It only took you " + numberOfTries + " tries.";
 				newGame();
 			}
